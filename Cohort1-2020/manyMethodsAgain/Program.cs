@@ -124,33 +124,26 @@ namespace manyMethodsAgain
 
         public static void Guess()
         {
-            Console.WriteLine("Would you like to play a guessing game y/n.");
-            string affirm = Console.ReadLine().ToLower();
+            Console.WriteLine("Guess a word.");
+            string answer = Console.ReadLine().ToLower();
 
-            if (affirm == "y")
+            if (answer == "CSHARP")
             {
-                Console.WriteLine(" Excellent! What word am I thinking?");
-                string answer = Console.ReadLine().ToUpper();
+                Console.WriteLine("Woo!!! That is correct.");
+            }
+            else if (answer != "CSHARP")
+            {
+                Console.WriteLine("That is wrong.");
+                Console.WriteLine("Would you like to try again? y/n");
+                string again = Console.ReadLine().ToLower();
 
-                if (answer == "CSHARP")
+                if (again == "y")
                 {
-                    Console.WriteLine("Woo!!! That is correct!");
+                    Guess();
                 }
-                else if (answer != "CSHARP")
+                else if (again == "n")
                 {
-                    Console.WriteLine("Sorry, that is incorrect.");
-                    Console.WriteLine("Would you like to try again? y/n");
-                    string again = Console.ReadLine().ToLower();
-
-                    if (again == "y")
-                    {
-                        Console.WriteLine("What word am I thinking?");
-                    }
-
-                    else if (again == "n")
-                    {
-                        Console.WriteLine("Quitter!");
-                    }
+                    Console.WriteLine("Quitter!!!");
                 }
             }
 
