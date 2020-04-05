@@ -1,0 +1,13 @@
+C:\Users\caudl\Desktop\C-Sharp-Programs\Cohort1-2020\manyMethodsAgain\obj\Debug\netcoreapp3.1\manyMethodsAgain.csprojAssemblyReference.cache
+C:\Users\caudl\Desktop\C-Sharp-Programs\Cohort1-2020\manyMethodsAgain\obj\Debug\netcoreapp3.1\manyMethodsAgain.csproj.CoreCompileInputs.cache
+C:\Users\caudl\Desktop\C-Sharp-Programs\Cohort1-2020\manyMethodsAgain\obj\Debug\netcoreapp3.1\manyMethodsAgain.AssemblyInfoInputs.cache
+C:\Users\caudl\Desktop\C-Sharp-Programs\Cohort1-2020\manyMethodsAgain\obj\Debug\netcoreapp3.1\manyMethodsAgain.AssemblyInfo.cs
+C:\Users\caudl\Desktop\C-Sharp-Programs\Cohort1-2020\manyMethodsAgain\bin\Debug\netcoreapp3.1\manyMethodsAgain.exe
+C:\Users\caudl\Desktop\C-Sharp-Programs\Cohort1-2020\manyMethodsAgain\bin\Debug\netcoreapp3.1\manyMethodsAgain.deps.json
+C:\Users\caudl\Desktop\C-Sharp-Programs\Cohort1-2020\manyMethodsAgain\bin\Debug\netcoreapp3.1\manyMethodsAgain.runtimeconfig.json
+C:\Users\caudl\Desktop\C-Sharp-Programs\Cohort1-2020\manyMethodsAgain\bin\Debug\netcoreapp3.1\manyMethodsAgain.runtimeconfig.dev.json
+C:\Users\caudl\Desktop\C-Sharp-Programs\Cohort1-2020\manyMethodsAgain\bin\Debug\netcoreapp3.1\manyMethodsAgain.dll
+C:\Users\caudl\Desktop\C-Sharp-Programs\Cohort1-2020\manyMethodsAgain\bin\Debug\netcoreapp3.1\manyMethodsAgain.pdb
+C:\Users\caudl\Desktop\C-Sharp-Programs\Cohort1-2020\manyMethodsAgain\obj\Debug\netcoreapp3.1\manyMethodsAgain.dll
+C:\Users\caudl\Desktop\C-Sharp-Programs\Cohort1-2020\manyMethodsAgain\obj\Debug\netcoreapp3.1\manyMethodsAgain.pdb
+C:\Users\caudl\Desktop\C-Sharp-Programs\Cohort1-2020\manyMethodsAgain\obj\Debug\netcoreapp3.1\manyMethodsAgain.genruntimeconfig.cache
