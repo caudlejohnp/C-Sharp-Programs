@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\caudl\\Desktop\\C-Sharp-Programs\\Cohort1-2020\\ConsoleApp1\\ManyMethods.csproj": {}
+    "C:\\Users\\caudl\\Desktop\\Trial\\Cohort1-2020\\ConsoleApp1\\ManyMethods.csproj": {}
   },
   "projects": {
-    "C:\\Users\\caudl\\Desktop\\C-Sharp-Programs\\Cohort1-2020\\ConsoleApp1\\ManyMethods.csproj": {
+    "C:\\Users\\caudl\\Desktop\\Trial\\Cohort1-2020\\ConsoleApp1\\ManyMethods.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\caudl\\Desktop\\C-Sharp-Programs\\Cohort1-2020\\ConsoleApp1\\ManyMethods.csproj",
+        "projectUniqueName": "C:\\Users\\caudl\\Desktop\\Trial\\Cohort1-2020\\ConsoleApp1\\ManyMethods.csproj",
         "projectName": "ManyMethods",
-        "projectPath": "C:\\Users\\caudl\\Desktop\\C-Sharp-Programs\\Cohort1-2020\\ConsoleApp1\\ManyMethods.csproj",
+        "projectPath": "C:\\Users\\caudl\\Desktop\\Trial\\Cohort1-2020\\ConsoleApp1\\ManyMethods.csproj",
         "packagesPath": "C:\\Users\\caudl\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\caudl\\Desktop\\C-Sharp-Programs\\Cohort1-2020\\ConsoleApp1\\obj\\",
+        "outputPath": "C:\\Users\\caudl\\Desktop\\Trial\\Cohort1-2020\\ConsoleApp1\\obj\\",
         "projectStyle": "PackageReference",
         "configFilePaths": [
           "C:\\Users\\caudl\\AppData\\Roaming\\NuGet\\NuGet.Config",

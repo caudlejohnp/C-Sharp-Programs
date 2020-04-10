@@ -1,0 +1,13 @@
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\RockPaperScissors\bin\Debug\netcoreapp3.1\RockPaperScissors.exe
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\RockPaperScissors\bin\Debug\netcoreapp3.1\RockPaperScissors.deps.json
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\RockPaperScissors\bin\Debug\netcoreapp3.1\RockPaperScissors.runtimeconfig.json
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\RockPaperScissors\bin\Debug\netcoreapp3.1\RockPaperScissors.runtimeconfig.dev.json
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\RockPaperScissors\bin\Debug\netcoreapp3.1\RockPaperScissors.dll
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\RockPaperScissors\bin\Debug\netcoreapp3.1\RockPaperScissors.pdb
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\RockPaperScissors\obj\Debug\netcoreapp3.1\RockPaperScissors.csprojAssemblyReference.cache
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\RockPaperScissors\obj\Debug\netcoreapp3.1\RockPaperScissors.csproj.CoreCompileInputs.cache
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\RockPaperScissors\obj\Debug\netcoreapp3.1\RockPaperScissors.AssemblyInfoInputs.cache
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\RockPaperScissors\obj\Debug\netcoreapp3.1\RockPaperScissors.AssemblyInfo.cs
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\RockPaperScissors\obj\Debug\netcoreapp3.1\RockPaperScissors.dll
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\RockPaperScissors\obj\Debug\netcoreapp3.1\RockPaperScissors.pdb
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\RockPaperScissors\obj\Debug\netcoreapp3.1\RockPaperScissors.genruntimeconfig.cache

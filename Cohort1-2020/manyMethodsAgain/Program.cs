@@ -135,7 +135,7 @@ namespace manyMethodsAgain
             {
                 Console.WriteLine("That is wrong.");
                 Console.WriteLine("Would you like to try again? y/n");
-                string again = Console.ReadLine().ToLower();
+                string again = Console.ReadLine().ToUpper();
 
                 if (again == "y")
                 {
