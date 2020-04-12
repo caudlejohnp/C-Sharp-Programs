@@ -1,0 +1,13 @@
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.csprojAssemblyReference.cache
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.csproj.CoreCompileInputs.cache
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.AssemblyInfoInputs.cache
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.AssemblyInfo.cs
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TicTacToe\bin\Debug\netcoreapp3.1\TicTacToe.exe
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TicTacToe\bin\Debug\netcoreapp3.1\TicTacToe.deps.json
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TicTacToe\bin\Debug\netcoreapp3.1\TicTacToe.runtimeconfig.json
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TicTacToe\bin\Debug\netcoreapp3.1\TicTacToe.runtimeconfig.dev.json
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TicTacToe\bin\Debug\netcoreapp3.1\TicTacToe.dll
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TicTacToe\bin\Debug\netcoreapp3.1\TicTacToe.pdb
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.dll
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.pdb
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TicTacToe\obj\Debug\netcoreapp3.1\TicTacToe.genruntimeconfig.cache

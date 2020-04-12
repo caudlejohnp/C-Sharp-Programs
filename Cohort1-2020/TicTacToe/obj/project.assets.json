@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\caudl\\Desktop\\Trial\\Cohort1-2020\\FizzBuzz\\FizzBuzz.csproj",
-      "projectName": "FizzBuzz",
-      "projectPath": "C:\\Users\\caudl\\Desktop\\Trial\\Cohort1-2020\\FizzBuzz\\FizzBuzz.csproj",
+      "projectUniqueName": "C:\\Users\\caudl\\Desktop\\Trial\\Cohort1-2020\\TicTacToe\\TicTacToe.csproj",
+      "projectName": "TicTacToe",
+      "projectPath": "C:\\Users\\caudl\\Desktop\\Trial\\Cohort1-2020\\TicTacToe\\TicTacToe.csproj",
       "packagesPath": "C:\\Users\\caudl\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\caudl\\Desktop\\Trial\\Cohort1-2020\\FizzBuzz\\obj\\",
+      "outputPath": "C:\\Users\\caudl\\Desktop\\Trial\\Cohort1-2020\\TicTacToe\\obj\\",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "C:\\Users\\caudl\\AppData\\Roaming\\NuGet\\NuGet.Config",

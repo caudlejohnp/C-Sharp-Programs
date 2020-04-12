@@ -31,6 +31,7 @@ namespace RockPaperScissors
                     break;
                 case "scissor":
                     playerHand = 3;
+
                     break;
             }
 

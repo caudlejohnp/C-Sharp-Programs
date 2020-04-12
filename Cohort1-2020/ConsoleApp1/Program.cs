@@ -9,7 +9,7 @@ namespace Cohort1_2020
             Hello();
             Addition();
             CatDog();
-            OddEvent();
+            OddEven();
             Inches();
             Echo();
             KillGrams();
@@ -54,7 +54,7 @@ namespace Cohort1_2020
             }
         }
 
-        public static void OddEvent()
+        public static void OddEven()
         {
         
 
