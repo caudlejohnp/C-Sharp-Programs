@@ -140,9 +140,9 @@ namespace TicTacToe
 
         private static bool VerticalWin(string playerLetter)
         {
-            if (Board[0, 0].Equals(playerLetter) && Board[0, 1].Equals(playerLetter) && Board[0, 2].Equals(playerLetter) || 
-                Board[1, 0].Equals(playerLetter) && Board[1, 1].Equals(playerLetter) && Board[1, 2].Equals(playerLetter) ||
-                Board[2, 0].Equals(playerLetter) && Board[2, 1].Equals(playerLetter) && Board[2, 2].Equals(playerLetter))
+            if (Board[0, 0].Equals(playerLetter) && Board[1, 0].Equals(playerLetter) && Board[2, 0].Equals(playerLetter) || 
+                Board[0, 1].Equals(playerLetter) && Board[1, 1].Equals(playerLetter) && Board[2, 1].Equals(playerLetter) ||
+                Board[0, 2].Equals(playerLetter) && Board[2, 1].Equals(playerLetter) && Board[2, 2].Equals(playerLetter))
             {
                 return true;
             }
