@@ -1,0 +1,13 @@
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Mastermind\bin\Debug\netcoreapp3.1\Mastermind.exe
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Mastermind\bin\Debug\netcoreapp3.1\Mastermind.deps.json
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Mastermind\bin\Debug\netcoreapp3.1\Mastermind.runtimeconfig.json
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Mastermind\bin\Debug\netcoreapp3.1\Mastermind.runtimeconfig.dev.json
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Mastermind\bin\Debug\netcoreapp3.1\Mastermind.dll
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Mastermind\bin\Debug\netcoreapp3.1\Mastermind.pdb
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Mastermind\obj\Debug\netcoreapp3.1\Mastermind.csprojAssemblyReference.cache
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Mastermind\obj\Debug\netcoreapp3.1\Mastermind.csproj.CoreCompileInputs.cache
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Mastermind\obj\Debug\netcoreapp3.1\Mastermind.AssemblyInfoInputs.cache
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Mastermind\obj\Debug\netcoreapp3.1\Mastermind.AssemblyInfo.cs
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Mastermind\obj\Debug\netcoreapp3.1\Mastermind.dll
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Mastermind\obj\Debug\netcoreapp3.1\Mastermind.pdb
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Mastermind\obj\Debug\netcoreapp3.1\Mastermind.genruntimeconfig.cache

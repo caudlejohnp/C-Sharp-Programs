@@ -7,51 +7,110 @@ namespace Mastermind
     {
         static void Main(string[] args)
         {
-            string[] colors = new string[] { "red", "yellow", "blue" };
-            List<string> compChoice = new List<string>();
-            List<string> userColor = new List<string>();
+            Console.WriteLine("Please choose a color. Red, Yellow, Blue.");
+            string answer1 = Console.ReadLine().ToLower();
+            Console.WriteLine("Please choose another color. Red, Yellow, Blue.");
+            string answer2 = Console.ReadLine().ToLower();
+            
+
             Random random = new Random();
-            int compColor = random.Next(1, 3);
+            int compChoice1 = random.Next(1, 3);    //computers first choice
+            int compChoice2 = random.Next(1, 3);    //computers second choice
+            int userChoice1 = 0;                    //place holder for user first choice switch
+            int userChoice2 = 0;                    //place holder for users second choice switch
+            string compColor1 = string.Empty;       //place holder for computers first choice switch so it can be printed on screen
+            string compColor2 = string.Empty;       //place holder for computers second choice switch so it can be printed on screen
 
-            //Checking for win
-            if (userColor[0].Equals(compChoice[0]) && userColor[1].Equals(compChoice[1]))
+            switch (answer1)    //user first choice switch for comparison
             {
-                Console.WriteLine("Correct! Outstanding job.");
-                break;
-            }
-            //One color matches and is in the correct position
-            else if (userColor[0].Equals(compChoice[0]) || userColor[1].Equals(compChoice[1]))
-            {
-                Console.WriteLine("\n - 1. You guessed one of the colors in the correct position.");
-                Console.WriteLine();
-            }
-            //One color is correct
-            else if (userColor[0].Contains(compChoice[0]) || userColor[1].Contains(compChoice[1]))
-            {
-                //Checking if colors are correct but position incorrect
-                if (userColor[0].Equals(compChoice[1]) || userColor[1].Equals(compChoice[0]))
-                {
-                    Console.WriteLine("\n2 - 0. You guessed the correct colors but the position was wrong.");
-                    Console.WriteLine();
-                }
-                else
-                {
-                    Console.WriteLine("\n1 - 0. You guessed one of the colors correctly but got the wrong position.");
-                    Console.WriteLine();
-                }
-            }
-            //no matching colors
-            else
-            {
-                Console.WriteLine("\n0 - 0. You did not guess any correct color.");
+                case "red":
+                    userChoice1 = 1;
+                    break;
+                case "yellow":
+                    userChoice1 = 2;
+                    break;
+                case "blue":
+                    userChoice1 = 3;
+                    break;
             }
 
-            Console.WriteLine("\nWould you like to play again? y/n");
-            isPlaying = Console.ReadLine().ToUpper().Contains("Y") ? true : false;
-        }
+            switch (answer2)    //user second choice switch for comparison
+            {
+                case "red":
+                    userChoice2 = 1;
+                    break;
+                case "yellow":
+                    userChoice2 = 2;
+                    break;
+                case "blue":
+                    userChoice2 = 3;
+                    break;
+            }
 
-            Console.WriteLine("Goodbye");
+            //Player chose the same colors and order as the computer.
+            if (compChoice1 == userChoice1 && compChoice2 == userChoice2)
+            {
+                Console.WriteLine("Congratulations! You win!");
+            }
+
+            //Player chose the correct colors but in the wrong order.
+            if (compChoice1 == userChoice2 && compChoice2 == userChoice1)
+            {
+                Console.WriteLine("You chose the correct colors but in the wrong order.");
+            }
+
+            //Player got first color correct but not the second
+            if (compChoice1 == userChoice1 && compChoice2 != userChoice2)
+            {
+                Console.WriteLine("1 - 0 You got one color in the correct spot.");
+            }
+
+            //Player got second color correct but not first
+            if (compChoice1 != userChoice1 && compChoice2 == userChoice2)
+            {
+                Console.WriteLine("0 - 1 You got one color in the correct spot.");
+            }
+
+            //Player did not guess the correct color or order for both guesses
+            if (compChoice1 != userChoice1 && compChoice2 != userChoice2)
+            {
+                Console.WriteLine("0 - 0 You did not get any guesses correct.");
+            }
+
+            //Converting what the computer chose so that player can see the computers guesses.
+            switch (compChoice1)
+            {
+                case 1:
+                    compColor1 = "Red";
+                    break;
+                case 2:
+                    compColor1 = "Yellow";
+                    break;
+                case 3:
+                    compColor1 = "Blue";
+                    break;
+            }
+
+            switch (compChoice2)
+            {
+                case 1:
+                    compColor2 = "Red";
+                    break;
+                case 2:
+                    compColor2 = "Yellow";
+                    break;
+                case 3:
+                    compColor2 = "Blue";
+                    break;
+            }
+
+            //What the computer chose.
+            Console.WriteLine("The computer chose " + compColor1 + " and " + compColor2);
             Console.ReadKey();
+
+
+            
+        }
 
     }
 }
