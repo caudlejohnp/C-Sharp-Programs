@@ -27,8 +27,6 @@ namespace TicTacToe
                 {
                     playerLetter = "X";
                 }
-                Winner(playerLetter);
-                IsTie(playerLetter);
 
                 if (Winner(playerLetter) || IsTie(playerLetter))
                 {
@@ -105,6 +103,7 @@ namespace TicTacToe
                     break;     
                 }
         }
+
 
         private static bool Winner(string playerLetter)
         {

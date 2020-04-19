@@ -1,0 +1,13 @@
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TowersOfHanoi\bin\Debug\netcoreapp3.1\TowersOfHanoi.exe
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TowersOfHanoi\bin\Debug\netcoreapp3.1\TowersOfHanoi.deps.json
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TowersOfHanoi\bin\Debug\netcoreapp3.1\TowersOfHanoi.runtimeconfig.json
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TowersOfHanoi\bin\Debug\netcoreapp3.1\TowersOfHanoi.runtimeconfig.dev.json
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TowersOfHanoi\bin\Debug\netcoreapp3.1\TowersOfHanoi.dll
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TowersOfHanoi\bin\Debug\netcoreapp3.1\TowersOfHanoi.pdb
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TowersOfHanoi\obj\Debug\netcoreapp3.1\TowersOfHanoi.csprojAssemblyReference.cache
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TowersOfHanoi\obj\Debug\netcoreapp3.1\TowersOfHanoi.csproj.CoreCompileInputs.cache
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TowersOfHanoi\obj\Debug\netcoreapp3.1\TowersOfHanoi.AssemblyInfoInputs.cache
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TowersOfHanoi\obj\Debug\netcoreapp3.1\TowersOfHanoi.AssemblyInfo.cs
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TowersOfHanoi\obj\Debug\netcoreapp3.1\TowersOfHanoi.dll
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TowersOfHanoi\obj\Debug\netcoreapp3.1\TowersOfHanoi.pdb
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\TowersOfHanoi\obj\Debug\netcoreapp3.1\TowersOfHanoi.genruntimeconfig.cache

@@ -1,4 +1,5 @@
 ﻿using System;
+using System.Collections.Generic;
 
 namespace Mastermind
 {
@@ -10,7 +11,7 @@ namespace Mastermind
             List<string> compChoice = new List<string>();
             List<string> userColor = new List<string>();
             Random random = new Random();
-            int compColor = random.Next(2, 3);
+            int compColor = random.Next(1, 3);
 
             //Checking for win
             if (userColor[0].Equals(compChoice[0]) && userColor[1].Equals(compChoice[1]))
