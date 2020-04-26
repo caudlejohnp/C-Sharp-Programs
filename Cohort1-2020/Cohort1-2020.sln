@@ -13,11 +13,15 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TicTacToe", "TicTacToe\TicT
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "FizzBuzz", "FizzBuzz\FizzBuzz.csproj", "{A359F6FD-56F5-4F25-9320-6F65F631BAE1}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Mastermind", "Mastermind\Mastermind.csproj", "{7031EB96-6FD9-442F-9484-9F33D1500E7D}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Mastermind", "Mastermind\Mastermind.csproj", "{7031EB96-6FD9-442F-9484-9F33D1500E7D}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Gradebook", "Gradebook\Gradebook.csproj", "{DCD219FC-FC85-452E-99F1-0941CDA4D227}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Gradebook", "Gradebook\Gradebook.csproj", "{DCD219FC-FC85-452E-99F1-0941CDA4D227}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TowersOfHanoi", "TowersOfHanoi\TowersOfHanoi.csproj", "{A87A83A1-CD58-45DB-9729-28550767F5A5}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "TowersOfHanoi", "TowersOfHanoi\TowersOfHanoi.csproj", "{A87A83A1-CD58-45DB-9729-28550767F5A5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "PoCos", "PoCos\PoCos.csproj", "{EC42DEDF-B500-4BAA-BFBF-A94624CA5924}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ToDoItem", "ToDoItem\ToDoItem.csproj", "{D37006BB-C6B4-4CB2-A464-709289137BF5}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -57,6 +61,14 @@ Global
 		{A87A83A1-CD58-45DB-9729-28550767F5A5}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{A87A83A1-CD58-45DB-9729-28550767F5A5}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{A87A83A1-CD58-45DB-9729-28550767F5A5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{EC42DEDF-B500-4BAA-BFBF-A94624CA5924}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{EC42DEDF-B500-4BAA-BFBF-A94624CA5924}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{EC42DEDF-B500-4BAA-BFBF-A94624CA5924}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{EC42DEDF-B500-4BAA-BFBF-A94624CA5924}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D37006BB-C6B4-4CB2-A464-709289137BF5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D37006BB-C6B4-4CB2-A464-709289137BF5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D37006BB-C6B4-4CB2-A464-709289137BF5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D37006BB-C6B4-4CB2-A464-709289137BF5}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

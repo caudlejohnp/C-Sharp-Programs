@@ -9,7 +9,13 @@ namespace Mastermind
         {
             Console.WriteLine("Please choose a color. Red, Yellow, Blue.");
             string answer1 = Console.ReadLine().ToLower();
-            Console.WriteLine("Please choose another color. Red, Yellow, Blue.");
+            
+            //WORK IN PROGRESS FOR USER INPUT ERROR
+            //if (answer1 != "red","yellow","blue")
+            //{
+            //    Console.WriteLine("Invalid Entry. Please chose again.");
+            //}
+            //Console.WriteLine("Please choose another color. Red, Yellow, Blue.");
             string answer2 = Console.ReadLine().ToLower();
             
 

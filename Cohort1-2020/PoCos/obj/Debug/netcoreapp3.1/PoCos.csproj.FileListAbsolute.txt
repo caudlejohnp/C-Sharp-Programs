@@ -1,0 +1,13 @@
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\PoCos\bin\Debug\netcoreapp3.1\PoCos.exe
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\PoCos\bin\Debug\netcoreapp3.1\PoCos.deps.json
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\PoCos\bin\Debug\netcoreapp3.1\PoCos.runtimeconfig.json
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\PoCos\bin\Debug\netcoreapp3.1\PoCos.runtimeconfig.dev.json
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\PoCos\bin\Debug\netcoreapp3.1\PoCos.dll
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\PoCos\bin\Debug\netcoreapp3.1\PoCos.pdb
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\PoCos\obj\Debug\netcoreapp3.1\PoCos.csprojAssemblyReference.cache
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\PoCos\obj\Debug\netcoreapp3.1\PoCos.csproj.CoreCompileInputs.cache
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\PoCos\obj\Debug\netcoreapp3.1\PoCos.AssemblyInfoInputs.cache
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\PoCos\obj\Debug\netcoreapp3.1\PoCos.AssemblyInfo.cs
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\PoCos\obj\Debug\netcoreapp3.1\PoCos.dll
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\PoCos\obj\Debug\netcoreapp3.1\PoCos.pdb
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\PoCos\obj\Debug\netcoreapp3.1\PoCos.genruntimeconfig.cache
