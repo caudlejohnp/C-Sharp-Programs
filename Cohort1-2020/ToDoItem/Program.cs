@@ -7,7 +7,7 @@ namespace ToDoItem
     {
         static void Main(string[] args)
         {
-            List<ToDoItem> list = new List<ToDoItem>();
+            List<toDoItem> list = new List<toDoItem>();
             bool stop = true;
 
             do
@@ -15,11 +15,9 @@ namespace ToDoItem
                 Console.WriteLine("Enter an item.");
             } while (stop == true);
         }
-
-        
     }
 
-    class Description
+    class Desc
     {
 
     }
