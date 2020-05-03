@@ -30,14 +30,14 @@ namespace CarLot
         }
     }
 
-    abstract class Vehicle  //creates a base class to s
+    abstract class Vehicle  //creates a base abstract class to that is further defined in the other sub-classes. Abstract so that it can no be instantiated
     {
         public string licenseNumber { get; set; }
         public string Make { get; set; }
         public string Model { get; set; }
         public decimal Price { get; set; }
 
-        public Vehicle(string license, string make, string model, decimal price)
+        public Vehicle(string license, string make, string model, decimal price)    //Constructor for base class
         {
             licenseNumber = license;
             Make = make;
@@ -45,38 +45,38 @@ namespace CarLot
             Price = price;
         }
 
-        public virtual string PrintDetails()
+        public virtual string PrintDetails()        //Writes out a string to be called on later in the foreach loop
         {
             return $"The {Make} {Model} with the license plate of {licenseNumber} and cost's ${Price}";
         }
     }
 
-    class Truck : Vehicle
+    class Truck : Vehicle       //creates a sub-class of vehicle
     {
-        public string BedSize { get; set; }
-        public  Truck (string liscense, string make, string model, decimal price, string bedSize) : base (liscense, make, model,price)
+        public string BedSize { get; set; }     //new details that are to be add to particular sub-class
+        public  Truck (string liscense, string make, string model, decimal price, string bedSize) : base (liscense, make, model,price) 
         {
-            BedSize = bedSize;
+            BedSize = bedSize;      //Constructor for the added details of the sub-class
         }
 
-        public override string PrintDetails()
+        public override string PrintDetails()       //new print out details for this particular sub-class
         {
             return $"The {Make} {Model} with the license plate of {licenseNumber}. It has a bed size of {BedSize} and cost's ${Price}";
         }
     }
 
-    class Car : Vehicle
+    class Car : Vehicle         //creates another sub-class of vehicle
     {
-        public int NumberOfDoors { get; set; }
-        public string Type { get; set; }
+        public int NumberOfDoors { get; set; }      //new details that are to be add to particular sub-class
+        public string Type { get; set; }            //new details that are to be add to particular sub-class
 
         public Car (string license, string make, string model, decimal price, int numOfDoors, string type) : base(license, make, model, price)
         {
-            NumberOfDoors = numOfDoors;
+            NumberOfDoors = numOfDoors;             //Constructor for the added details
             Type = type;
         }
 
-        public override string PrintDetails()
+        public override string PrintDetails()       //new print out details specifically for this subclass
         {
             return $"The {Make} {Model} with the license plaet of {licenseNumber} has {NumberOfDoors} doors. It is a {Type} and costs ${Price}.";
         }
