@@ -14,7 +14,7 @@ namespace SupHeroesVillians
             people.Add(new Person("Mary-Jane Watson", "MJ"));
             people.Add(new SuperHero("Peter Parker", "Spider-Man", string.Empty, "Spider-Sense"));
             people.Add(new Villian("Harry Osborn", string.Empty, "Spider-Man"));
-            people.Add(new Person("Beatrice Ross", "Betty"));
+            people.Add(new Person("Elizabeth Ross", "Betty"));
             people.Add(new SuperHero("Bruce Banner", "The Hulk", string.Empty, "anger issues"));
             people.Add(new Villian("Thaddeus E. Ross", string.Empty, "The Hulk"));
 
