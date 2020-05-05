@@ -31,7 +31,9 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "Prompt1", "Prompt1\Prompt1.
 EndProject
 Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SupHeroesVillians", "SupHeroesVillians\SupHeroesVillians.csproj", "{CC6DE892-7388-4ECD-9487-A26C4C1014F5}"
 EndProject
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CarLot", "CarLot\CarLot.csproj", "{4C2B61DC-866B-436C-96DB-0E75C433BFAD}"
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarLot", "CarLot\CarLot.csproj", "{4C2B61DC-866B-436C-96DB-0E75C433BFAD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRentable", "IRentable\IRentable.csproj", "{AA58A95F-3B5C-4082-9B37-C1B543E8A467}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -99,6 +101,10 @@ Global
 		{4C2B61DC-866B-436C-96DB-0E75C433BFAD}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{4C2B61DC-866B-436C-96DB-0E75C433BFAD}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{4C2B61DC-866B-436C-96DB-0E75C433BFAD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{AA58A95F-3B5C-4082-9B37-C1B543E8A467}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{AA58A95F-3B5C-4082-9B37-C1B543E8A467}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{AA58A95F-3B5C-4082-9B37-C1B543E8A467}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{AA58A95F-3B5C-4082-9B37-C1B543E8A467}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
