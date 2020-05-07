@@ -7,22 +7,22 @@ namespace IRentable
     {
         static void Main(string[] args)
         {
-            List<IRentable> rent = new List<IRentable>();
-            rent.Add(new Boat("$100 per hour", "Speed Boat"));
-            rent.Add(new Boat("$300 per hour", "50 ft. Yacht"));
-            rent.Add(new House("3 Bed, 2 Bath", "$350 per week"));
-            rent.Add(new House("2 Bed, 1 Bath", "$200 per week"));
-            rent.Add(new Car("Volkswagen Jetta", "$75 per day"));
-            rent.Add(new Car("Ford F150", "$125 per day"));
+            List<IRentable> rent = new List<IRentable>();           //instantiated a list for the rentable items
+            rent.Add(new Boat("$100 per hour", "Speed Boat"));      //created and added a boat to the list
+            rent.Add(new Boat("$300 per hour", "50 ft. Yacht"));    //created and added a boat to the list
+            rent.Add(new House("3 Bed, 2 Bath", "$350 per week"));  //created and added a house to the list
+            rent.Add(new House("2 Bed, 1 Bath", "$200 per week"));  //created and added a house to the list
+            rent.Add(new Car("Volkswagen Jetta", "$75 per day"));   //created and added a car to the list
+            rent.Add(new Car("Ford F150", "$125 per day"));         //created and added a car to the list
 
-            foreach (var item in rent)
+            foreach (var item in rent)      //Loop to print out all items on the rent list
             {
                 Console.WriteLine($"{item.GetDescription()} and costs {item.GetRate()}");
             }
         }
     }
 
-    interface IRentable
+    interface IRentable         
     {
         string GetRate();
         string GetDescription();

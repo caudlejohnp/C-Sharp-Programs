@@ -35,6 +35,10 @@ Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "CarLot", "CarLot\CarLot.csp
 EndProject
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "IRentable", "IRentable\IRentable.csproj", "{AA58A95F-3B5C-4082-9B37-C1B543E8A467}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "BubbleSort", "BubbleSort\BubbleSort.csproj", "{0FC8DD72-BC8C-4842-842B-5D0CDCAC6CD3}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Checkers", "Checkers\Checkers.csproj", "{3B10E2E2-3CA0-4552-B5FD-E67228C3612F}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -105,6 +109,14 @@ Global
 		{AA58A95F-3B5C-4082-9B37-C1B543E8A467}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{AA58A95F-3B5C-4082-9B37-C1B543E8A467}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{AA58A95F-3B5C-4082-9B37-C1B543E8A467}.Release|Any CPU.Build.0 = Release|Any CPU
+		{0FC8DD72-BC8C-4842-842B-5D0CDCAC6CD3}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{0FC8DD72-BC8C-4842-842B-5D0CDCAC6CD3}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{0FC8DD72-BC8C-4842-842B-5D0CDCAC6CD3}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{0FC8DD72-BC8C-4842-842B-5D0CDCAC6CD3}.Release|Any CPU.Build.0 = Release|Any CPU
+		{3B10E2E2-3CA0-4552-B5FD-E67228C3612F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{3B10E2E2-3CA0-4552-B5FD-E67228C3612F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{3B10E2E2-3CA0-4552-B5FD-E67228C3612F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{3B10E2E2-3CA0-4552-B5FD-E67228C3612F}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE

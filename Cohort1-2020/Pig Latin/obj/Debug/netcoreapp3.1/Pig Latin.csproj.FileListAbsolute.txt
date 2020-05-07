@@ -11,3 +11,16 @@ C:\Users\caudl\Desktop\C-Sharp-Programs\Cohort1-2020\Pig Latin\bin\Debug\netcore
 C:\Users\caudl\Desktop\C-Sharp-Programs\Cohort1-2020\Pig Latin\obj\Debug\netcoreapp3.1\Pig Latin.dll
 C:\Users\caudl\Desktop\C-Sharp-Programs\Cohort1-2020\Pig Latin\obj\Debug\netcoreapp3.1\Pig Latin.pdb
 C:\Users\caudl\Desktop\C-Sharp-Programs\Cohort1-2020\Pig Latin\obj\Debug\netcoreapp3.1\Pig Latin.genruntimeconfig.cache
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Pig Latin\bin\Debug\netcoreapp3.1\Pig Latin.exe
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Pig Latin\bin\Debug\netcoreapp3.1\Pig Latin.deps.json
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Pig Latin\bin\Debug\netcoreapp3.1\Pig Latin.runtimeconfig.json
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Pig Latin\bin\Debug\netcoreapp3.1\Pig Latin.runtimeconfig.dev.json
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Pig Latin\bin\Debug\netcoreapp3.1\Pig Latin.dll
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Pig Latin\bin\Debug\netcoreapp3.1\Pig Latin.pdb
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Pig Latin\obj\Debug\netcoreapp3.1\Pig Latin.csprojAssemblyReference.cache
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Pig Latin\obj\Debug\netcoreapp3.1\Pig Latin.csproj.CoreCompileInputs.cache
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Pig Latin\obj\Debug\netcoreapp3.1\Pig Latin.AssemblyInfoInputs.cache
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Pig Latin\obj\Debug\netcoreapp3.1\Pig Latin.AssemblyInfo.cs
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Pig Latin\obj\Debug\netcoreapp3.1\Pig Latin.dll
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Pig Latin\obj\Debug\netcoreapp3.1\Pig Latin.pdb
+C:\Users\caudl\Desktop\Trial\Cohort1-2020\Pig Latin\obj\Debug\netcoreapp3.1\Pig Latin.genruntimeconfig.cache
