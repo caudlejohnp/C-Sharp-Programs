@@ -2,6 +2,7 @@
 using System.Collections.Generic;
 using System.IO.Compression;
 using System.Linq;
+using System.Security.Cryptography.X509Certificates;
 using System.Text;
 using System.Xml.Serialization;
 
@@ -22,7 +23,7 @@ namespace Checkers
             //return board.checkers.All(x => x.Team == Color.White) || board.checkers.All(x => x.Team == Color.Black);
             int black = 0;
             int white = 0;
-            for (int i = 0; i < board.checkers.Count(); i++)        //ToDo Check to see if the i is still unreachable at a later date.
+            for (int i = 0; i < board.checkers.Count(); i++)        
             {
                 if (board.checkers[i].Team == Color.Black)
                 {
@@ -97,8 +98,15 @@ namespace Checkers
                 return false;
             }
 
-            c = board.GetChecker(dest);
+            if (Program.playerTurn != c.Team)
+            {
+                return false;
+            }
 
+
+            c = board.GetChecker(dest);
+            
+            
             if ( c != null)     //Make sure there is no checker at the dest selection
             {
                 return false;
@@ -119,6 +127,7 @@ namespace Checkers
             {
                 return true;
             }
+
         }
 
         public bool IsCapture(Position src, Position dest)
@@ -181,6 +190,7 @@ namespace Checkers
 
             do
             {
+                Console.WriteLine($"It is {Program.playerTurn}'s turn");
                 Console.WriteLine("Select a row and column. (row,col)");
                 string[] src = Console.ReadLine().Split(",");
                 int srcCount = src.Count();
@@ -250,6 +260,14 @@ namespace Checkers
             }
             Console.Clear();
             DrawBoard();
+            if (Program.playerTurn == Color.White)
+            {
+                Program.playerTurn = Color.Black;
+            }
+            else
+            {
+                Program.playerTurn = Color.White;
+            }
         }
 
         public void DrawBoard()
