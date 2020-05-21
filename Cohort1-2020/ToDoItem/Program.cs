@@ -7,19 +7,43 @@ namespace ToDoItem
     {
         static void Main(string[] args)
         {
-            List<ToDoItem> toDoList = new List<ToDoItem>();
-            bool stop = true;
+            List<ToDoItem> list = new List<ToDoItem>();
+            bool done = true;
 
             do
             {
-                Console.WriteLine("Enter a brief To Do description, a due date and and low, medium or high priority");
-                string answer = Console.ReadLine();
-                ToDoItem item1 = new ToDoItem("", "", "");
-            } while (stop == true);
+                Console.WriteLine("Enter a brief description.");
+                string desc = Console.ReadLine();
+                Console.WriteLine("Enter a due date.");
+                string dueDate = Console.ReadLine();
+                Console.WriteLine("Enter a priority: Low - Medium - High");
+                string priority = Console.ReadLine().ToUpper();
+                Console.WriteLine("Enter another item? y/n");
+                string cont = Console.ReadLine().ToLower();
+                list.Add(new ToDoItem(desc, dueDate, priority));
+
+                if (cont == "y")
+                {
+                    done = true;
+                }
+                else if (cont == "n")
+                {
+                    done = false;
+                }
+
+            } while (done);
+
+            foreach (var item in list)
+            {
+                Console.WriteLine($" Description: {item.Description} \n Due Date: {item.DueDate} \n Priority: {item.Priority} \n ");
+            }
+            Console.ReadKey();
+
+
         }
     }
 
-    class ToDoItem
+    public class ToDoItem
     {
         public string Description { get; set; }
 

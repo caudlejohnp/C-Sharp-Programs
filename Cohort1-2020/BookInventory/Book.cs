@@ -13,8 +13,8 @@ namespace BookInventory
 
         public Book(string title, string author)
         {
-            this.Title = title;
-            this.Author = author;
+            Title = title;
+            Author = author;
         }
     }
 }

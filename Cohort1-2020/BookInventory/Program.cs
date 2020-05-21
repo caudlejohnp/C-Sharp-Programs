@@ -17,7 +17,7 @@ namespace BookInventory
             } while (quit);
         }
 
-        public static void Menu(bool quit)
+        public static void Menu(bool quit)      //Main menu with navigation prompts
         {
             bool mainMenu = true;
             do
@@ -60,7 +60,7 @@ namespace BookInventory
             while (!mainMenu);
         }
 
-        public static void AddBook()
+        public static void AddBook()            //Method that allows the user to add a book to the library.
         {
             Console.WriteLine("Please enter the title of your new book.");
             string title = Console.ReadLine();
@@ -85,7 +85,7 @@ namespace BookInventory
             }
         }
 
-        public static void UpdateBook()
+        public static void UpdateBook()         //Method that allows the user to update a book from there library
         {
             context.PrintLibrary();
             Console.WriteLine("Please enter the ID number of the book you wish to update.");
@@ -112,7 +112,7 @@ namespace BookInventory
             
         }
 
-        public static void RemoveBook()
+        public static void RemoveBook()         //Method that allows the user to delete a book from the library
         {
             context.PrintLibrary();
             Console.WriteLine("Please enter the ID number of the book your wish to delete.");
@@ -133,7 +133,7 @@ namespace BookInventory
             }
         }
 
-        public static Book FindBook(int id)
+        public static Book FindBook(int id)     //Method that finds the book by the id number so that it can be updated or deleted
         {
             return context.Books.Find(id);
         }

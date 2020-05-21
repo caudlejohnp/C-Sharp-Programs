@@ -20,7 +20,7 @@ namespace BookInventory
             String DatabaseFile = Path.Combine(ProjectBase.FullName, "Books.db");
 
             //to check what the path of the file is, uncomment the file below
-            Console.WriteLine("using database file :" + DatabaseFile);
+            //Console.WriteLine("using database file :" + DatabaseFile);
 
             optionsBuilder.UseSqlite("Data Source= " + DatabaseFile);
         }
